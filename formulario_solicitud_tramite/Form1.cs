@@ -16,5 +16,12 @@ namespace formulario_solicitud_tramite
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Solicitud_tramite nuevotramite = new Solicitud_tramite();
+        }
+
+
     }
 }
