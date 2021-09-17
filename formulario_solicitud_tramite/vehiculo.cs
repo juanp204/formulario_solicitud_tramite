@@ -8,17 +8,15 @@ namespace formulario_solicitud_tramite
 {
     class vehiculo
     {
-        public string placa_letras;
+        public string placa;
 
-        public int placa_numeros;
-
-        public int Tipo_vehiculo;
+        public string Tipo_vehiculo;
 
         public string Marca;
 
         public string Linea;
 
-        public int combustible;
+        public string combustible;
 
         public string color;
 
@@ -26,7 +24,7 @@ namespace formulario_solicitud_tramite
 
         public string Cilindrada;
 
-        public float capacidad;
+        public double capacidad;
 
         public bool blindaje;
 

@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulariopadre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulariopadre.Designer.cs">
+      <DependentUpon>Formulariopadre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuguardados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuguardados.Designer.cs">
+      <DependentUpon>menuguardados.cs</DependentUpon>
+    </Compile>
     <Compile Include="persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +71,12 @@
     <Compile Include="vehiculo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulariopadre.resx">
+      <DependentUpon>Formulariopadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuguardados.resx">
+      <DependentUpon>menuguardados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

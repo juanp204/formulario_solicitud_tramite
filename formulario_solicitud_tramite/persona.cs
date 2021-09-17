@@ -14,7 +14,7 @@ namespace formulario_solicitud_tramite
 
         public string nombre;
 
-        public int tipo_identificacion;
+        public string tipo_identificacion;
 
         public int num_documento;
 
